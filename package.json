@@ -1,0 +1,23 @@
+{
+  "name": "jwt-token-validator-action",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xevolic/jwt-token-validator-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xevolic/jwt-token-validator-action/issues"
+  },
+  "homepage": "https://github.com/xevolic/jwt-token-validator-action#readme",
+  "description": "JWT Token Validator Action",
+  "dependencies": {
+    "@actions/core": "^1.11.1"
+  }
+}
