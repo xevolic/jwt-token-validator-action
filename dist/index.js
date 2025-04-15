@@ -27561,8 +27561,6 @@ try {
     // `who-to-greet` input defined in action metadata file
     const token = core.getInput('token');
 
-    console.log(`Checking ${token}`);
-
     function verifyToken(input, regexPattern) {
         const regex = new RegExp(regexPattern);
 
@@ -27573,7 +27571,7 @@ try {
     const result = verifyToken(token, pattern);
 
     if (!result) {
-        throw new Error("Given JWT is not valid.");
+        throw new Error("Given token is not in JWT format.");
     }
 } catch (error) {
     core.setFailed(error.message);
